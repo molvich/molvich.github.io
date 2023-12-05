@@ -12,6 +12,21 @@ header {
     color: #d3d3d3;
     text-align: center;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    /* Remove default margin for h1 */
+}
+
+a.back-to-home {
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #d3d3d3;
 }
 
 nav {
